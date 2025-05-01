@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.return {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 60vh;
+  background-image: url("../assets/details-4.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.return_card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  width: 20%;
+  height: 50%;
+  background-color: #000000ab;
+  border-top: 10px solid #ff9100be;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.btn {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #ff9100be;
+}
+.btn:hover {
+  background-color: #ff9100be;
+}
+.room-filter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 30px;
+  height: 20px;
+}
+.m1{
+    background-image: url('../assets/room-1.jpeg');
+    background-size: cover;
+}.m2{
+    background-image: url('../assets/room-2.jpeg');
+    background-size: cover;
+}.m3{
+    background-image: url('../assets/room-3.jpeg');
+    background-size: cover;
+}.m4{
+    background-image: url('../assets/room-4.jpeg');
+    background-size: cover;
+}.m5{
+    background-image: url('../assets/room-5.jpeg');
+    background-size: cover;
+}.m6{
+    background-image: url('../assets/room-6.jpeg');
+    background-size: cover;
+}
+.m7{
+    background-image: url('../assets/room-7.jpeg');
+    background-size: cover;
+}.m8{
+    background-image: url('../assets/room-8.jpeg');
+    background-size: cover;
+}.m9{
+    background-image: url('../assets/room-9.jpeg');
+    background-size: cover;
+}.m10{
+    background-image: url('../assets/room-10.jpeg');
+    background-size: cover;
+}.m11{
+    background-image: url('../assets/room-11.jpeg');
+    background-size: cover;
+}.m12{
+    background-image: url('../assets/room-12.jpeg');
+    background-size: cover;
+}
+.rooms{
+    margin:30px auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

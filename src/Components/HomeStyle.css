@@ -1,0 +1,142 @@
+.card{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 0 0 10px 10px;
+    background-color: #00000077;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    margin: auto;
+    color: azure;
+    border-top: 10px solid #ff9100be;
+    transform: translateY(80%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 4px;
+}
+.card h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home{
+    background-image: url('../assets/defaultBcg.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #ff9100be;
+}
+.btn:hover{
+    background-color: #00000028 ;
+}
+.services_h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 80px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 80px;
+    color: rgb(0, 0, 0);
+    
+}
+.service_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    background-color: #00000023;
+    border: 1px solid #ff9100be;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+.service_card p{
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: translateY(-50px);
+
+}
+.service_card h2{
+    transform: translateY(-50px);
+}
+.service_card i{
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #ff8800;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    transform: translateY(-60px);
+}
+.featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 80px;
+    color: rgb(0, 0, 0);
+}
+.featured_cards{
+    width: 450px;
+    height: 250px;
+    overflow: hidden;
+
+}
+.fature_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffffbe;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    transform: translateY(250px);
+    transition: all 0.3s ease;
+}
+.featured_cards:hover .fature_text{
+    transform: translateY(100px);
+
+}
+.im1{
+    background-image: url('../assets/details-1.jpeg');
+    background-size: cover;
+}.im2{
+    background-size: cover;
+    
+    background-image: url('../assets/details-2.jpeg');
+}.im3{
+    background-size: cover;
+    background-image: url('../assets/details-3.jpeg');
+}
+.featured{
+    margin-bottom: 100px;
+}
