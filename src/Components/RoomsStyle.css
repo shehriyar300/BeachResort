@@ -94,7 +94,7 @@
 .rooms{
     margin:30px auto;
     width: 70%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
     gap: 20px;
 }
